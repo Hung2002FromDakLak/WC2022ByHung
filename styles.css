@@ -63,10 +63,14 @@ body {
 table, th, td {
     text-align: center;
     border:1px solid black;
+    border-radius: 3px;
     padding: 20px;
     color: rgba(10, 8, 0, 0.88);
     font-weight: bold;
     background-color: rgb(250, 100, 100);
+}
+th:hover, td:hover {
+    background-color: antiquewhite;
 }
 #trandau {
     text-align: center;
