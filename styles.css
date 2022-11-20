@@ -67,5 +67,17 @@ table, th, td {
     background-color: rgb(250, 100, 100);
 }
 #gioithieu {
-    position: static;
+    text-align: center;
+}
+#thongtintrandau {
+    display: flex;
+    align-content: space-around;
+    border: 5px solid red;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#thongtintrandau-item {
+    margin-left: 100px;
 }
