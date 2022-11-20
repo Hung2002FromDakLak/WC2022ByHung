@@ -66,3 +66,6 @@ table, th, td {
     font-weight: bold;
     background-color: rgb(250, 100, 100);
 }
+#gioithieu {
+    position: static;
+}
