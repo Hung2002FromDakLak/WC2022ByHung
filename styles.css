@@ -34,7 +34,7 @@ body {
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(200, 196, 196);
 }
 #header-item-sub:hover {
@@ -46,7 +46,9 @@ body {
     max-width: 100%;
 }
 #bxh {
+    font-size: 25px;
     position: absolute;
+    color: rgb(75, 10, 10);
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -66,18 +68,46 @@ table, th, td {
     font-weight: bold;
     background-color: rgb(250, 100, 100);
 }
-#gioithieu {
+#trandau {
     text-align: center;
+    font-size: 25px;
+    color: rgb(75, 10, 10);
 }
+#trandau h2 {
+    margin-top: 5vh;
+    
+}
+#trandau p {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+} 
 #thongtintrandau {
-    display: flex;
-    align-content: space-around;
     border: 5px solid red;
+    border-radius: 5px;
     padding: 20px;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    display: flex;
+    align-content: space-around;
+    font-size: 25px;
 }
-#thongtintrandau-item {
-    margin-left: 100px;
+.tenbang {
+    flex-grow: 0.5;
+}
+.doi1, .doi2 {
+    flex-grow: 3;
+}
+.tiso {
+    flex-grow: 2;
+    background-color: rgb(42, 125, 241);
+}
+.tiso:hover {
+    color: aliceblue;
+}
+.thoigian {
+    flex-grow: 1.5;
+}
+.thongtintrandau-item {
+    /* margin-left: 35px; */
 }
