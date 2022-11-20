@@ -92,6 +92,9 @@ table, th, td {
     align-content: space-around;
     font-size: 25px;
 }
+#thongtintrandau:hover {
+    background-color: rgba(255, 255, 255, 0.867);
+}
 .tenbang {
     flex-grow: 0.5;
 }
