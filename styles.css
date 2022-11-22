@@ -106,21 +106,21 @@ th:hover, td:hover {
 }
 .tenbang {
     flex-grow: 1.5;
-    width: 10%;
+    width: 15%;
     color: black;
 }
 .doi1, .doi2 {
-    flex-grow: 2;
-    color: rgb(255, 2, 2);
+    flex-grow: 3;
+    color: rgb(0, 0, 0);
     width: 30%;
 }
 .tiso {
-    flex-grow: 3;
+    flex-grow: 1;
     width: 10%;
 }
 .thoigian {
     flex-grow: 1.5;
-    width: 20%;
+    width: 15%;
 }
 .thongtintrandau-item {
     
