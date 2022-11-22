@@ -89,6 +89,7 @@ th:hover, td:hover {
     border: 5px solid red;
     border-radius: 5px;
     padding: 20px;
+    text-align: center;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -100,16 +101,20 @@ th:hover, td:hover {
     background-color: rgba(255, 255, 255, 0.867);
 }
 .tenbang {
-    flex-grow: 2;
+    flex-grow: 1.5;
+    width: 10%;
 }
 .doi1, .doi2 {
-    flex-grow: 2.5;
+    flex-grow: 2;
+    width: 30%;
 }
 .tiso {
-    flex-grow: 1;
+    flex-grow: 3;
+    width: 10%;
 }
 .thoigian {
-    flex-grow: 2;
+    flex-grow: 1.5;
+    width: 20%;
 }
 .thongtintrandau-item {
     /* margin-left: 35px; */
